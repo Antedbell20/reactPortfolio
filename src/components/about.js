@@ -1,8 +1,4 @@
 import React from 'react';
-import Avatar from '../assets/images/avatar.png';
-import BerkeleyLogo from '../assets/images/berkeley.png';
-import PittsburghLogo from '../assets/images/pittsburgh.png';
-import CarletonLogo from '../assets/images/carleton.png';
 import '../App.css';
 
 const About = () => {
@@ -15,7 +11,6 @@ const About = () => {
 
                             <div className='card-body'>
                                 <div className="row abstract-back ">
-                                    <img className='avatar' src={Avatar} />
                                 </div>
                             </div>
 
@@ -41,26 +36,9 @@ const About = () => {
                                         <div className='title-concentration'>Full Stack Web Development</div>
                                     </div>
 
-                                    <div className='grid-item'>
-                                        <a href='https://www.berkeley.edu/' target='_blank'><img className='university-logo' src={BerkeleyLogo} /></a>
-                                    </div>
-
                                     <div className="grid-item">
-                                        <div className='title-uni'>University Of Pittsburgh</div>
-                                        <div className='title-concentration'>Master of Science in Medical Product Engineering</div>
-                                    </div>
-
-                                    <div className="grid-item">
-                                        <a href='https://www.pitt.edu/' target='_blank'><img className='university-logo' src={PittsburghLogo} /></a>
-                                    </div>
-
-                                    <div className="grid-item">
-                                        <div className='title-uni'>Carleton University</div>
-                                        <div className='title-concentration'>Bachelor of Electrical and Biomedical Engineering</div>
-                                    </div>
-
-                                    <div className="grid-item">
-                                        <a href='https://carleton.ca/' target='_blank'><img className='university-logo' src={CarletonLogo} /></a>
+                                        <div className='title-uni'>University Of missouri-columbia</div>
+                                        <div className='title-concentration'>IT</div>
                                     </div>
                                 </div>
                             </div>

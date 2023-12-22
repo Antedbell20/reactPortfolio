@@ -25,7 +25,7 @@ function Contact() {
                         <Container>
                             <h4 style={{color: "#F06543"}}>Contact Info</h4>
                             <p>
-                                <a href="mailto:priyaravi23@gmail.com">
+                                <a href="mailto:andipetersen820@gmail.com">
                                     <span className="pr-3">
                                         <FaEnvelope />
                                     </span>
@@ -34,7 +34,7 @@ function Contact() {
                             </p>
                             
                             <p>
-                                <a href="https://github.com/priyaravi23" target='_blank'>
+                                <a href="https://github.com/antedbell20" target='_blank'>
                                     <span className="pr-3">
                                         <FaGithub />
                                     </span>
@@ -42,7 +42,7 @@ function Contact() {
                                 </a>
                             </p>
                             <p>
-                                <a href="https://www.linkedin.com/in/priya-ravi-4508437b/" target='_blank'>
+                                <a href="https://www.linkedin.com/in/antedbell20/" target='_blank'>
                                     <span className="pr-3">
                                         <FaLinkedin />
                                     </span>
