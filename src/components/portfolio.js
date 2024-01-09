@@ -1,5 +1,5 @@
 import React from 'react';
-import portfolio from '../data';
+import portfolio from '../app'
 import ProjectCards from '../components/project';
 import '../App.css';
 import '../portfolio.css';
