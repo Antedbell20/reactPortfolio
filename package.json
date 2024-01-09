@@ -34,7 +34,9 @@
 
     "react-scripts": "3.4.3",
 
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+
+    "webpack": "^4.42.0"
 
   },
 

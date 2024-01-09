@@ -18,23 +18,28 @@ const Portfolio = () => {
                                 <div className="modal-footer" />
 
                                 <div className="grid-container vertical-line">
-                                    {portfolio.map((project) => (
+                                    
+                                        {
+                                    portfolio.map((portfolio) => (
                                         <ProjectCards
-                                            id={project.id}
-                                            key={project.id}
-                                            image={project.image}
-                                            name={project.name}
-                                            github={project.github}
-                                            deploy={project.deploy}
+                                            
+                                            
+                                            title={portfolio.title}
+                                            description={portfolio.description}
+                                            github={portfolio.github}
+                                            deployed={portfolio.deployed}
                                         />
                                     ))}
+                                    </div>
+                                    
+                                    
                                 </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </React.Fragment>
     );
 };

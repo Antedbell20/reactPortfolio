@@ -29,7 +29,7 @@ function Contact() {
                                     <span className="pr-3">
                                         <FaEnvelope />
                                     </span>
-                                    priyaravi23@gmail.com
+                                    andipetersen@gmail.com
                                 </a>
                             </p>
                             
@@ -38,7 +38,7 @@ function Contact() {
                                     <span className="pr-3">
                                         <FaGithub />
                                     </span>
-                                    priyaravi23
+                                    antedbell20
                                 </a>
                             </p>
                             <p>
@@ -46,7 +46,7 @@ function Contact() {
                                     <span className="pr-3">
                                         <FaLinkedin />
                                     </span>
-                                    priya-ravi-4508437b
+                                    antedbell20
                                 </a>
                             </p>
                         </Container>
